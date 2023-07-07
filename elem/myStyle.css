@@ -264,7 +264,7 @@ pr {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("assets/bookIntro.webp");
+  background-image: url("../assets/bookIntro.webp");
   background-size: contain;
   background-repeat: no-repeat;
   height: 60vw;
