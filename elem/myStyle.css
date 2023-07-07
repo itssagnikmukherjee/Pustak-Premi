@@ -342,7 +342,7 @@ pr {
 .book1 {
   top: 25%;
   right: 5%;
-  background-image: url("assets/introBooks/book1.webp");
+  background-image: url("../assets/introBooks/book1.webp");
 }
 .book1:hover {
   transform: rotateZ(10deg);
@@ -351,7 +351,7 @@ pr {
 .book2 {
   top: 32%;
   right: 15%;
-  background-image: url("assets/introBooks/book2.webp");
+  background-image: url("../assets/introBooks/book2.webp");
 }
 .book2:hover {
   transform: rotateZ(-10deg);
@@ -360,7 +360,7 @@ pr {
 .book3 {
   top: 40%;
   right: 30%;
-  background-image: url("assets/introBooks/book3.webp");
+  background-image: url("../assets/introBooks/book3.webp");
 }
 .book3:hover {
   transform: rotateZ(10deg);
@@ -369,7 +369,7 @@ pr {
 .book4 {
   top: 47%;
   right: 45%;
-  background-image: url("assets/introBooks/book4.webp");
+  background-image: url("../assets/introBooks/book4.webp");
 }
 .book4:hover {
   transform: rotateZ(-10deg);
@@ -378,7 +378,7 @@ pr {
 .book5 {
   top: 55%;
   right: 61%;
-  background-image: url("assets/introBooks/book5.webp");
+  background-image: url("../assets/introBooks/book5.webp");
 }
 .book5:hover {
   transform: rotateZ(10deg);
@@ -390,7 +390,7 @@ pr {
   position: absolute;
   top: 20%;
   left: 10%;
-  background-image: url("assets/introBooks/newArrival.png");
+  background-image: url("../assets/introBooks/newArrival.png");
   background-size: cover;
 }
 .scrollBtn {
@@ -406,7 +406,7 @@ pr {
   }
   .introBg{
     top: -5vw;
-    background-image: url("assets/bookIntro.webp");
+    background-image: url("../assets/bookIntro.webp");
     background-size: contain;
     background-repeat: no-repeat;
     height: 60vw;
@@ -426,7 +426,7 @@ pr {
   height: 2vw;
   text-align: center;
   line-height: .1vw;
-  background-image: url('assets/ficRibbon.webp');
+  background-image: url('../assets/ficRibbon.webp');
   background-size: cover;
   background-repeat: no-repeat;
   transform: rotate(-45deg);
@@ -456,7 +456,7 @@ pr {
 .titlebg {
   position: absolute;
   text-align: center;
-  background-image: url("assets/titleBg.webp");
+  background-image: url("../assets/titleBg.webp");
   background-size: contain;
   height: 5vw;
   margin-top: 1.5vw;
@@ -465,7 +465,7 @@ pr {
 }
 .bsbBg {
   margin: 3vw;
-  background-image: url("assets/bestBg.webp");
+  background-image: url("../assets/bestBg.webp");
   background-size: contain;
   height: 140vw;
   width: 95vw;
@@ -486,26 +486,26 @@ pr {
   display: flex;
   width: 38vw;
   height: 26vw;
-  background-image: url("assets/bestSellingBooks/bsbbg.webp");
+  background-image: url("../assets/bestSellingBooks/bsbbg.webp");
   background-size: cover;
   transition: 0.2s;
   align-items: center;
 }
 
 .bsBook {
-  background-image: url("assets/bestSellingBooks/book1.webp");
+  background-image: url("../assets/bestSellingBooks/book1.webp");
   height: 100%;
   width: 50%;
   background-size: cover;
 }
 .bsBook2{
-  background-image: url('assets/bestSellingBooks/book10.webp');
+  background-image: url('../assets/bestSellingBooks/book10.webp');
 }
 .bsBook3{
-  background-image: url('assets/bestSellingBooks/book11.webp');
+  background-image: url('../assets/bestSellingBooks/book11.webp');
 }
 .bsBook4{
-  background-image: url('assets/bestSellingBooks/book2.webp');
+  background-image: url('../assets/bestSellingBooks/book2.webp');
 }
 
 
@@ -591,22 +591,22 @@ pr {
 /* recommendation */
 
 .rcmBook1{
-  background-image: url('assets/recommendations/book3.webp');
+  background-image: url('../assets/recommendations/book3.webp');
 }
 .rcmBook2{
-  background-image: url('assets/recommendations/book4.webp');
+  background-image: url('../assets/recommendations/book4.webp');
 }
 .rcmBook3{
-  background-image: url('assets/recommendations/book5.webp');
+  background-image: url('../assets/recommendations/book5.webp');
 }
 .rcmBook4{
-  background-image: url('assets/recommendations/book6.webp');
+  background-image: url('../assets/recommendations/book6.webp');
 }
 .rcmBook5{
-  background-image: url('assets/recommendations/book7.webp');
+  background-image: url('../assets/recommendations/book7.webp');
 }
 .rcmBook6{
-  background-image: url('assets/recommendations/book8.webp');
+  background-image: url('../assets/recommendations/book8.webp');
 }
 
 
@@ -623,13 +623,13 @@ pr {
   margin: 2vw;
   height:4vw;
   line-height: .2vw;
-  background-image: url('assets/titleBg.webp');
+  background-image: url('../assets/titleBg.webp');
   padding: 2.5vw;
   background-size: contain;
 }
 
 .rcmBody .bsbBg {
-  background-image: url("assets/rcmBg.webp");
+  background-image: url("../assets/rcmBg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0%;
@@ -667,7 +667,7 @@ input:focus {
   height: 3vw;
   transition: 0.2s;
   width: 3vw;
-  background-image: url("assets/recommendations/searchIcon.svg");
+  background-image: url("../assets/recommendations/searchIcon.svg");
   background-size: cover;
 
 }
@@ -693,7 +693,7 @@ input:focus {
   height: 78vw;
   width: 100%;
   display: flex;
-  background-image: url("assets/reviewsBg.webp");
+  background-image: url("../assets/reviewsBg.webp");
   background-size: contain;
   background-repeat: no-repeat;
   align-items: center;
@@ -788,7 +788,7 @@ color: var(--light-red);
   border-radius: 2vw;
 }
 .revImg1 {
-  background-image: url("assets/revImg/revimg1.jpg");
+  background-image: url("../assets/revImg/revimg1.jpg");
   background-repeat: no-repeat;
   height: 8vw;
   width: 8vw;
@@ -816,10 +816,10 @@ color: var(--light-red);
   flex-direction: row-reverse;
 }
 .revImg2 {
-  background-image: url("assets/revImg/revimg2.jpg");
+  background-image: url("../assets/revImg/revimg2.jpg");
 }
 .revImg3 {
-  background-image: url("assets/revImg/revimg3.jpg");
+  background-image: url("../assets/revImg/revimg3.jpg");
 }
 
 /* footer */
