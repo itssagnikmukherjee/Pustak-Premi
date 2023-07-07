@@ -58,7 +58,7 @@ body {
   z-index: 1;
 }
 .logoSec .logo {
-  background-image: url("assets/logo.png");
+  background-image: url("../assets/logo.png");
   height: 70%;
   width: 15%;
   background-size: contain;
